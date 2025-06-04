@@ -31,7 +31,7 @@ const Header = () => {
         <div className="flex items-center">
           <img src={fib} alt="logo" />
 
-          <button onClick={handleToggle} className="ml-4 lg:hidden">
+          <button onClick={handleToggle} className="ml-[180px] lg:hidden">
             <img src={categoriesIcon} alt="menu" />
           </button>
         </div>
